@@ -3,178 +3,209 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/index/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+    <title>Главная</title>
 </head>
 <body>
     <header>
-        <div class="container">
-            <nav>
-                <div>
-                    <a href="#">Мастер-классы</a>
-                    <a href="#">Мебель на заказ</a>
-                </div>
-                <div>
-                    <img src="./img/index/logo.svg" alt="logo">
-                </div>
-                <div>
-                    <a href="#">Контакты</a>
-                    <a href="#">О нас</a>
-                </div>
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li>
+                        <a href="#">Мастер-классы</a>
+                    </li>
+                    <li>
+                        <a href="#">Мебель на заказ</a>
+                    </li>
+                    <li class="logo">
+                        <a href="#">
+                            <img src="./img/index/logo.png" alt="logo">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                </ul>
             </nav>
-        </div>
     </header>
     <main>
         <section class="top">
             <div class="top-left">
-                <img src="./img/index/IMG_6431 1.svg" alt="img" class="top-img">
+                <img src="./img/index/title_photo.jpg" alt="img" class="top-img">
             </div>
             <div class="top-right">
-                <p class="top-subtitle">Столярная мастерская NIKASON BRAND</p>
-                <h1 class="top-title">Изготовление и реставрация мебели</h1>
-                <p class="top-subtitle">Авторская мебель ручной работы, сделанной с душой и трепетом.</p>
-                <button>Смотреть услуги</button>
+                <p class="top-subtitle-1">Столярная мастерская NIKASON BRAND</p>
+                <h1 class="top-title">Изготовление и <br>реставрация мебели</h1>
+                <p class="top-subtitle-2">Авторская мебель ручной работы, сделанной с душой и трепетом.</p>
+                <button class="top-show_services_btn btn">Смотреть услуги</button>
                 <div class="top-links">
-                    <a class="tg-link" href="#"><img src="./img/index/Telegram.svg" alt="tg"></a>
-                    <a class="inst-link" href="#"><img src="./img/index/Insta.svg" alt="inst"></a>
-                    <a class="wh-link" href="#"><img src="./img/index/WhatsApp.svg" alt="wh"></a>
+                    <a class="tg-link" href="#"><img src="./img/index/title_tg.svg" alt="tg"></a>
+                    <a class="inst-link" href="#"><img src="./img/index/title_insta.svg" alt="inst"></a>
+                    <a class="wh-link" href="#"><img src="./img/index/title_whatsapp.svg" alt="wh"></a>
                 </div>
             </div>
         </section>
-        <section class="overview">
-            <div class="container">
-                <div class="overview-top">
-                    <h1 class="overview-title">NIKASON BRAND это</h1>
-                    <div class="overview-info">
-                        <div class="info-"><p>Производство авторской мебели из массива</p></div>
-                        <div><p>Реставрация, редизайн, ремонт деревянной мебели</p></div>
-                        <div><p>Производство мебели по индивидуальным размерам</p></div>
-                    </div>
+        <section class="overview container">
+            <div class="overview-top">
+                <h1 class="overview-title">NIKASON BRAND это</h1>
+                <div class="overview-info">
+                    <div><p>Производство авторской мебели из массива</p></div>
+                    <div><p>Реставрация, редизайн, ремонт деревянной мебели</p></div>
+                    <div><p>Производство мебели по индивидуальным размерам</p></div>
                 </div>
-                <div class="overview-bottom">
-                    <h1 class="overview-title">Более 10 лет мы производим</h1>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <img src="./img/index/bed 1.svg" alt="img">
+            </div>
+            <div class="overview-bottom">
+                <h2 class="overview-title">Более 10 лет мы производим</h2>
+                <table class="overview-bottom-table-produce">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div>
+                                    <img class="img-products" src="./img/index/bed.png" alt="img">
                                     <p>Двери</p>
-                                </td>
-                                <td>
-                                    <img src="./img/index/closet 1.svg" alt="img">
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img class="img-products" src="./img/index/closet.png" alt="img">
                                     <p>Шкафы</p>
-                                </td>
-                                <td>
-                                    <img src="./img/index/chair-2 1.svg" alt="img">
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img class="img-products" src="./img/index/chair.png" alt="img">
                                     <p>Столы и стулья</p>
-                                </td>
-                                <td>
-                                    <img src="./img/index/drawers 1.svg" alt="img"> 
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img class="img-products" src="./img/index/drawers.png" alt="img"> 
                                     <p>Комоды</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <img src="./img/index/drawer 1.svg" alt="img">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div>
+                                    <img class="img-products" src="./img/index/drawer.png" alt="img">
                                     <p>Тумбы</p>
-                                </td>
-                                <td>
-                                    <img src="./img/index/gate 1.svg" alt="img">
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img class="img-products" src="./img/index/gate.png" alt="img">
                                     <p>Арки</p>
-                                </td>
-                                <td>
-                                    <img src="./img/index/room-divider 1.svg" alt="img">
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img class="img-products" src="./img/index/room-divider.png" alt="img">
                                     <p>Перегородки</p>
-                                </td>
-                                <td>
-                                    <img src="./img/index/bed 1.svg" alt="img">
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <img class="img-products" src="./img/index/bed.png" alt="img">
                                     <p>Кровати</p>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
         <section class="overview-family">
-            <h1>NIKASON BRAND это семейная мастеркая</h1>
-            <div>
+            <div class="container">
+                <h1 class="overview-family-title">NIKASON BRAND это семейная мастеркая</h1>
+            </div >
+            <div class="overview-family-info">
                 <div class="overview-family-img">
-                    <img src="./img/index/Family.svg" alt="img">
+                    <img src="./img/index/family.jpg" alt="img">
                 </div>
                 <div class="overview-family-description">
                     <h2>Саргылана и Никита Колодезниковы-Матчитовы</h2>
                     <div>
-                        <p>Саргылана - рестовратор-декоратор, преображает и дарит вторую жизнь старой мебели.
-                        
+                        <p>Саргылана - рестовратор-декоратор, преображает и дарит вторую жизнь старой мебели.<br><br>
                             Никита - мастер по дереву, вся мебель делается его умелыми руками.
                         </p>
                     </div>
-                    <button>Подробнее о нас</button>
+                    <button class="overview-family-btn btn">Подробнее о нас</button>
                 </div>
             </div>
         </section>
-        <section class="overview-family-video">
-            <div class="container">
-                <h1>Посмотрите видео о нас</h1>
-                <video></video>
-            </div>
+        <section class="overview-family-video container">
+            <h1>Посмотрите видео о нас</h1>
+            <video></video>
         </section>
         <section class="overview-services">
-            <h1>Наши услуги</h1>
-            <div class="services">
-                <div class="service-item-img">
-                    <img src="./img/index/service1.svg" alt="img">
-                </div>
-                <div class="service-item-descr">
-                    <div>Мебель на заказ</div>
-                    <p>Мебель под заказ по индивидуальным размерам это гарантия отличного качества, долговечность, экологичность и эксклюзивность наших изделий. 
-                        Возможность создания своего неповторимого стиля, уникальность и неповторимость каждого изделия.</p>
-                    <button class="service-item__button">Заказать мебель</button>
-                </div>
-                <div class="service-item-img">
-                    <img src="./img/index/service2.svg" alt="img">
-                </div>
-                <div class="service-item-descr">
-                    <div>Мастер-классы</div>
-                    <p>Что делать, если память о предках хочется сохранить, но к вашему интерьеру старая и испорченная мебель не подходит? 
-                        Правильно, отреставрировать его и наслаждаться не только обновлённым видом мебели, но и с теплотой помнить, что эта мебель была сделана талантливыми предками.
-                        </p>
-                    <button class="service-item__button">Купить мастер-класс</button>
-                </div>
+            <div class="container">
+                <h1>Наши услуги</h1>
             </div>
-            <div class="garant">
+            <div class="services">
+                <div class="services-top">
+                    <div class="service-item-img">
+                            <img src="./img/index/washbasin_cabinet.jpg" alt="img">
+                    </div>
+                    <div class="service-item-descr">
+                        <h2>Мебель на заказ</h2>
+                        <p>Мебель под заказ по индивидуальным размерам это гарантия отличного качества, долговечность, экологичность и эксклюзивность наших изделий.<br>
+                            Возможность создания своего неповторимого стиля, уникальность и неповторимость каждого изделия.</p>
+                        <button class="service-item__button">Заказать мебель</button>
+                    </div>
+                </div>
+                <div class="services-bottom">
+                    <div class="service-item-img">
+                            <img src="./img/index/cabinets.jpg" alt="img">
+                    </div>
+                    <div class="service-item-descr">
+                        <h2>Мастер-классы</h2>
+                        <p>Что делать, если память о предках хочется сохранить, но к вашему интерьеру старая и испорченная мебель не подходит?<br>
+                            Правильно, отреставрировать его и наслаждаться не только обновлённым видом мебели, но и с теплотой помнить, что эта мебель была сделана талантливыми предками.
+                            </p>
+                        <button class="service-item__button btn">Купить мастер-класс</button>
+                    </div>
+                    </div>
+                </div>
+            <div class="garant container">
                 <div class="garant-border">
-                    <div class="garant-info">
-                        <h2>Гарантия качества мебели от NIKASON BRAND</h2>
-                        <p>На каждое изделие ставим авторский логотип (клеймо) как знак качества и узнаваемости мастера. Таким образом мастер несёт ответственность за каждое изделие помеченное печатью. Есть гарантия на 12 месяцев. </p>
-                        <div class="garant_logo"><img src="./img/index/logo.svg"></div>
+                    <div class="garant-border-inner">
+                        <div class="garant-info">
+                            <h2>Гарантия качества мебели от NIKASON BRAND</h2>
+                            <p>На каждое изделие ставим авторский логотип (клеймо) как знак качества и узнаваемости мастера. Таким образом мастер несёт ответственность за каждое изделие помеченное печатью. Есть гарантия на 12 месяцев. </p>
+                            <div class="garant_logo"><img src="./img/index/garant_logo.svg"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-        <div class="container">
-            <div>
+    <footer class="container">
+        <div class="footer">
+            <section class="info">
                 <small>ИП Колодезников-Матчитов Н.И.
-                ИНН 143515646663</small></div>
-            <div>
+                ИНН 143515646663</small>
+            </section>
+            <section class="info">
                 <a href="#">Мастер-классы</a>
                 <a href="#">Мебель на заказ</a>
-            </div>
-            <div>
+            </section>
+            <section class="info">
                 <a href="#">Контакты</a>
                 <a href="#">О нас</a>
-            </div>
-            <div>
+            </section>
+            <section class="info">
                 <a href="#">Политика кофиденциальности</a>
                 <a href="#">Договор оферты</a>
-            </div>
-            <div class="footer-links">
-                <a href="#"><img src="./img/index/Telegram.svg" alt="tg"></a>
-                <a href="#"><img src="./img/index/Insta.svg" alt="inst"></a>
-                <a href="#"><img src="./img/index/WhatsApp.svg" alt="wh"></a>
-            </div>
+            </section>
+            <section class="info footer-links">
+                <a href="#"><img src="./img/index/footer_tg.svg" alt="tg"></a>
+                <a href="#"><img src="./img/index/footer_insta.svg" alt="inst"></a>
+                <a href="#"><img src="./img/index/footer_wh.svg" alt="wh"></a>
+            </section>
         </div>
     </footer>
 </body>

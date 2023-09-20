@@ -1,0 +1,237 @@
+body{
+    background-color: #F3EFEA;
+    font-family: 'Open Sans', sans-serif;
+    color: #323232;
+    font-size: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    color: #F6F6F6;
+    background-color: #A1B29F;
+    border: 0;
+    width: 245px;
+    height: 60px;
+    cursor: pointer;
+    font-weight: 700;
+}
+button:hover{
+    background-color: #A1C59F;
+}
+a{
+    text-decoration: none;
+    color: #323232;
+}
+header{
+    border-bottom: black 1px solid;
+    height: 150px;
+}
+.container{
+    padding-left: 133px;
+    padding-right: 133px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.nav-list li:first-child{
+    margin-right: 82px;
+}
+.nav-list li:last-child{
+    margin-left: 82px;
+}
+.navigation{
+    height: 100%;
+}
+.navigation a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.logo{
+    width: 87px;
+    height: 87px;
+    margin-left: 270px;
+    margin-right: 270px;
+}
+h1,h2{
+    color: #57463A;
+}
+
+.overview-history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.overview-history h1{
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+.overview-history img{
+    height: 536px;
+    width: 100%;
+    margin-bottom: 160px;
+}
+.achievements{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.achievement h1{
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+}
+.achievement p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.overview-founder{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: row;
+}
+.overview-founder-img{
+    margin-right: 40px;
+}
+.overview-founder-description h1{
+    color: black;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.job-title{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 70px;
+}
+.history{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+
+.overview-philosophy h1{
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    margin-top: 160px;
+    margin-bottom: 70px;
+}
+.overview-philosophy p{
+    text-align: right;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    width: 100%;
+}
+.overview-smi h1{
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    margin-top: 160px;
+    margin-bottom: 20px;
+}
+.overview-smi p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 100px;
+}
+.smi-img{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.smi-img div:not(:last-child){
+    margin-right: 20px;
+}
+
+.overview-feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.overview-feedback h1{
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    margin-top: 160px;
+    margin-bottom: 100px;
+    align-self: flex-start;
+}
+
+
+footer{
+    margin-top: 210px;
+    background-color: #715B4B;
+    color: #F6F6F6;
+}
+.footer{
+    height: 380px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info:not(:first-child){
+    white-space: nowrap;
+}
+.info:first-child{
+    width: 248px;
+    margin-right: 1%;
+}
+.info:nth-child(2){
+    margin-right: 5%;
+}
+.info:nth-child(3){
+    margin-right: 13%;
+}
+.info:nth-child(4){
+    margin-right: 5%;
+}
+footer a{
+    color: #F6F6F6;
+}
+.footer-links{
+    display: flex;
+    flex-direction: row;
+}
+.footer-links a:not(:last-child){
+    margin-right: 18px;
+}

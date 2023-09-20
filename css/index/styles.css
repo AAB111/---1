@@ -1,0 +1,344 @@
+body{
+    background-color: #F3EFEA;
+    font-family: 'Open Sans', sans-serif;
+    color: #323232;
+    font-size: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    color: #F6F6F6;
+    background-color: #A1B29F;
+    border: 0;
+    width: 245px;
+    height: 60px;
+    cursor: pointer;
+    font-weight: 700;
+}
+button:hover{
+    background-color: #A1C59F;
+}
+a{
+    text-decoration: none;
+    color: #323232;
+}
+header{
+    border-bottom: black 1px solid;
+    height: 150px;
+}
+.container{
+    padding-left: 133px;
+    padding-right: 133px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.nav-list li:first-child{
+    margin-right: 82px;
+}
+.nav-list li:last-child{
+    margin-left: 82px;
+}
+.navigation{
+    height: 100%;
+}
+.navigation a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.logo{
+    width: 87px;
+    height: 87px;
+    margin-left: 270px;
+    margin-right: 270px;
+}
+h1,h2{
+    color: #57463A;
+}
+
+.top-left{
+    width: 720px;
+    height: 774px;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    border-bottom: black 1px solid;
+}
+.top-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 122px 0 4%;
+}
+.top-subtitle-1{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 17px;
+}
+.top-title{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    margin: 0;
+}
+.top-subtitle-2{
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 300;
+}
+.top-links{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 94px;
+}
+.top-links a:not(:last-child){
+    margin-right: 40px;
+}
+.top-links a:last-child{
+    margin-right: 18px;
+}
+.top-show_services_btn{
+    margin-top: 70px;
+}
+
+
+.overview-title{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+.overview-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.overview-info div{
+    border-bottom: #715B4B 3px solid;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 14px;
+}
+.overview-info div:not(:last-child){
+    margin-right: 40px;
+}
+.overview-top{
+    width: 100%;
+}
+.overview-bottom{
+    width: 100%;
+}
+.overview-bottom-table-produce{
+    width: 100%;
+}
+.overview-bottom-table-produce, tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.overview-bottom-table-produce tbody tr td div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+}
+.img-products{
+    margin-bottom: 20px;
+}
+.overview-family-title{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height:72px;
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+.overview-family-img{
+    width: 704px;
+    height: 475px;
+}
+.overview-family-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.overview-family-description{
+    padding: 68px 100px 48px 4%;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+}
+.overview-family-description h2{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+.overview-family-btn{
+    margin-top: 52px;
+}
+
+.overview-family-video h1{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+
+
+.overview-services h1{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+.service-item-img{
+    width: 720px;
+    height: 535px;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+}
+.services-top{
+    display: flex;
+    flex-direction: row;
+    color:black;
+}
+.services-top .service-item-descr{
+    background-color: #E3DACE;
+}
+.services-bottom .service-item-descr{
+    background-color: #D4CDC3;
+}
+.services-bottom{
+    display: flex;
+    flex-direction: row;
+}
+.service-item-descr h2{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: black;
+    margin-bottom: 40px;
+}
+.service-item-descr p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+}
+.service-item-descr{
+    padding: 75px 60px 81px 4%;
+    width: 100%;
+}
+.service-item__button{
+    margin-top: 55px;
+}
+
+
+.garant{
+    margin-top: 200px;
+}
+.garant-border{
+    border: 7px  solid #A1B29F;
+}
+.garant-border-inner{
+    border: 2px solid #715B4B;
+    margin: 5px;
+}
+.garant-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 92px 110px 50px;
+}
+.garant-info h2{
+    font-weight: 400;
+    line-height: 72px;
+    font-size: 48px;
+    font-family: 'Tenor Sans', sans-serif;
+    width: 658px;
+    text-align: center;
+}
+.garant-info p{
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
+    text-align: left;
+}
+.garant_logo{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 10px;
+    left: 350px;
+}
+
+footer{
+    margin-top: 210px;
+    background-color: #715B4B;
+    color: #F6F6F6;
+}
+.footer{
+    height: 380px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info:not(:first-child){
+    white-space: nowrap;
+}
+.info:first-child{
+    width: 248px;
+    margin-right: 1%;
+}
+.info:nth-child(2){
+    margin-right: 5%;
+}
+.info:nth-child(3){
+    margin-right: 13%;
+}
+.info:nth-child(4){
+    margin-right: 5%;
+}
+footer a{
+    color: #F6F6F6;
+}
+.footer-links{
+    display: flex;
+    flex-direction: row;
+}
+.footer-links a:not(:last-child){
+    margin-right: 18px;
+}
