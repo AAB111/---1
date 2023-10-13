@@ -71,19 +71,25 @@ h1,h2{
     flex-direction: column;
     align-items: center;
 }
-.overview-history h1{
+.overview-history h1,h2{
     font-family: 'Tenor Sans', sans-serif;
     font-weight: 400;
     font-size: 48px;
     line-height: 72px;
     text-align: center;
+}
+.overview-history h1{
     margin-top: 120px;
+}
+.overview-history h2{
     margin-bottom: 40px;
 }
-.overview-history img{
-    height: 536px;
+.overview-history-img{
     width: 100%;
     margin-bottom: 160px;
+}
+.overview-history img{
+    width: 100%;
 }
 .achievements{
     width: 100%;
@@ -101,8 +107,6 @@ h1,h2{
     font-size: 16px;
     line-height: 24px;
 }
-
-
 .overview-founder{
     margin-top: 160px;
     display: flex;
@@ -133,13 +137,14 @@ h1,h2{
     font-family: 'Tenor Sans', sans-serif;
 }
 
-
+.overview-philosophy{
+    margin-top: 160px;
+}
 .overview-philosophy h1{
     font-family: 'Tenor Sans', sans-serif;
     font-weight: 400;
     font-size: 48px;
     line-height: 72px;
-    margin-top: 160px;
     margin-bottom: 70px;
 }
 .overview-philosophy p{
@@ -234,4 +239,110 @@ footer a{
 }
 .footer-links a:not(:last-child){
     margin-right: 18px;
+}
+
+
+@media (max-width:391px) {
+    header{
+        border: 0;
+    }
+    .container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    button{
+        width: 300px;
+    }
+    .navigation{
+        display: none;
+    }
+    .overview-history{
+        flex-direction: column;
+    }
+    .overview-history h1,h2{
+        font-size: 32px;
+        text-align: left;
+        line-height: 48px;
+    }
+    .overview-history-img{
+        margin-bottom: 30px;
+    }
+    .achievements{
+        flex-direction: column;
+    }
+    .achievement{
+        margin-top: 40px;
+    }
+    .achievements h1{
+        margin-top: 0;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: left;
+    }
+    .overview-founder{
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+    }
+    .overview-founder-img{
+        margin-right: 0;
+    }
+    .overview-founder-img img{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .overview-philosophy{
+        margin-top: 90px;
+    }
+    .overview-philosophy h1{
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .overview-philosophy p{
+        font-size: 16px;
+    }
+    .overview-smi h1{
+        font-size: 32px;
+    }
+    .overview-smi p{
+        width: 90%;
+    }
+    .smi-img{
+        display: none;
+    }
+    .overview-feedback h1{
+        font-size: 32px;
+    }
+    .footer{
+        flex-direction: column-reverse;
+        justify-content: left;
+        align-items: left;
+        padding-bottom: 100px;
+    }
+    .info{
+        width: 100%;
+        text-align: left;
+    }
+    .info:first-child{
+        width: 100%;
+        order: 1;
+    }
+    .info:nth-child(2){
+        margin-right: 0;
+        order: 4;
+    }
+    .info:nth-child(3){
+        margin-right: 0;
+        order: 3;
+    }
+    .info:nth-child(4){
+        margin-right: 0;
+        margin: 40px 0 32px 0;
+        margin-top: 20px;
+        order: 2;
+    }
+    .info:nth-child(5){
+        margin: 40px 0 32px 0;
+        order: 5;
+    }
 }

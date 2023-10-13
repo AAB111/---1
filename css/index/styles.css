@@ -133,6 +133,7 @@ h1,h2{
     font-size: 18px;
     line-height: 27px;
     padding-bottom: 14px;
+    text-align: center;
 }
 .overview-info div:not(:last-child){
     margin-right: 40px;
@@ -249,7 +250,6 @@ h1,h2{
 }
 .service-item-descr{
     padding: 75px 60px 81px 4%;
-    width: 100%;
 }
 .service-item__button{
     margin-top: 55px;
@@ -258,6 +258,7 @@ h1,h2{
 
 .garant{
     margin-top: 200px;
+    padding: 0 140px;
 }
 .garant-border{
     border: 7px  solid #A1B29F;
@@ -341,4 +342,156 @@ footer a{
 }
 .footer-links a:not(:last-child){
     margin-right: 18px;
+}
+
+@media (max-width:391px){
+    header{
+        border: 0;
+    }
+    .container{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .navigation{
+        display: none;
+    }
+    .top{
+        flex-direction: column-reverse;
+    }
+    .top-left img{
+        width: 100%;
+    }
+    .top-left{
+        width: 100%;
+        height: 100%;
+    }
+    .top-title{
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .top-right{
+        padding: 0 0 0 40px;
+    }
+    .top-links{
+        justify-content: flex-start;
+    }
+    .overview-title{
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 60px;
+        margin-top: 90px;
+    }
+    .overview-info{
+        flex-direction: column;
+    }
+    .overview-info div{
+        margin-bottom: 40px;
+    }
+    .overview-info div:not(:last-child){
+        margin-right: 0;
+    }
+    .overview-bottom-table-produce tbody tr{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr; 
+    }
+    .overview-bottom-table-produce tbody tr{
+        border: none;
+    }
+    .overview-family-title{
+        margin-top: 90px;
+        margin-bottom: 60px;
+        font-size: 32px;
+        line-height:
+         48px;
+    }
+    .overview-family-info{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1fr;
+    }
+    .overview-family-img{
+        width: 100%;
+        height: 100%;
+    }
+    .overview-family-img img{
+        width: 100%;
+    }
+    .overview-family-description{
+        padding: 60px 0 0 40px;
+    }
+    .overview-family-video h1{
+        font-size: 32px;
+        line-height: 48px;
+        margin-top: 90px;
+        margin-bottom: 60px;
+    }
+    .overview-services h1{
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .services-top{
+        flex-direction: column;
+    }
+    .services-bottom{
+        flex-direction: column;
+    }
+    .service-item-img,.service-item-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .service-item-descr{
+        padding: 75px 30px 81px 40px;
+        white-space: normal;
+    }
+    .footer{
+        flex-direction: column-reverse;
+        justify-content: left;
+        align-items: left;
+        padding-bottom: 100px;
+    }
+    .info{
+        width: 100%;
+        text-align: left;
+    }
+    .info:first-child{
+        width: 100%;
+        order: 1;
+    }
+    .info:nth-child(2){
+        margin-right: 0;
+        order: 4;
+    }
+    .info:nth-child(3){
+        margin-right: 0;
+        order: 3;
+    }
+    .info:nth-child(4){
+        margin-right: 0;
+        margin: 40px 0 32px 0;
+        margin-top: 20px;
+        order: 2;
+    }
+    .info:nth-child(5){
+        margin: 40px 0 32px 0;
+        order: 5;
+    }
+    .garant{
+        padding: 0;
+    }
+    .garant-info{
+        padding: 92px 16px 50px;
+    }
+    .garant-info h2{
+        font-size: 32px;
+        line-height: 48px;
+        width: auto;
+    }
+    .garant-info p{
+        font-size: 16px;
+    }
+    .garant_logo{
+        top:5px;
+        left: 80px;
+    }
 }
